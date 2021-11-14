@@ -1,0 +1,70 @@
+//Copyright (C)2014-2021 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//GOWIN Version: 1.9.8
+//Part Number: GW2A-LV18PG484C8/I7
+//Device: GW2A-18
+//Created Time: Thu 11 11 04:56:19 2021
+
+IO_LOC "clk_adc" C22;
+IO_PORT "clk_adc" PULL_MODE=UP DRIVE=8;
+IO_LOC "clk_dac" W17;
+IO_PORT "clk_dac" PULL_MODE=UP DRIVE=8;
+IO_LOC "data_o[13]" Y20;
+IO_PORT "data_o[13]" PULL_MODE=UP DRIVE=8;
+IO_LOC "data_o[12]" AA20;
+IO_PORT "data_o[12]" PULL_MODE=UP DRIVE=8;
+IO_LOC "data_o[11]" Y18;
+IO_PORT "data_o[11]" PULL_MODE=UP DRIVE=8;
+IO_LOC "data_o[10]" Y19;
+IO_PORT "data_o[10]" PULL_MODE=UP DRIVE=8;
+IO_LOC "data_o[9]" Y17;
+IO_PORT "data_o[9]" PULL_MODE=UP DRIVE=8;
+IO_LOC "data_o[8]" AA17;
+IO_PORT "data_o[8]" PULL_MODE=UP DRIVE=8;
+IO_LOC "data_o[7]" W16;
+IO_PORT "data_o[7]" PULL_MODE=UP DRIVE=8;
+IO_LOC "data_o[6]" Y16;
+IO_PORT "data_o[6]" PULL_MODE=UP DRIVE=8;
+IO_LOC "data_o[5]" Y15;
+IO_PORT "data_o[5]" PULL_MODE=UP DRIVE=8;
+IO_LOC "data_o[4]" Y14;
+IO_PORT "data_o[4]" PULL_MODE=UP DRIVE=8;
+IO_LOC "data_o[3]" W15;
+IO_PORT "data_o[3]" PULL_MODE=UP DRIVE=8;
+IO_LOC "data_o[2]" W14;
+IO_PORT "data_o[2]" PULL_MODE=UP DRIVE=8;
+IO_LOC "data_o[1]" W13;
+IO_PORT "data_o[1]" PULL_MODE=UP DRIVE=8;
+IO_LOC "data_o[0]" W12;
+IO_PORT "data_o[0]" PULL_MODE=UP DRIVE=8;
+IO_LOC "data_in[11]" F22;
+IO_PORT "data_in[11]" PULL_MODE=UP;
+IO_LOC "data_in[10]" E22;
+IO_PORT "data_in[10]" PULL_MODE=UP;
+IO_LOC "data_in[9]" G22;
+IO_PORT "data_in[9]" PULL_MODE=UP;
+IO_LOC "data_in[8]" G21;
+IO_PORT "data_in[8]" PULL_MODE=UP;
+IO_LOC "data_in[7]" J22;
+IO_PORT "data_in[7]" PULL_MODE=UP;
+IO_LOC "data_in[6]" H22;
+IO_PORT "data_in[6]" PULL_MODE=UP;
+IO_LOC "data_in[5]" V14;
+IO_PORT "data_in[5]" PULL_MODE=UP;
+IO_LOC "data_in[4]" V15;
+IO_PORT "data_in[4]" PULL_MODE=UP;
+IO_LOC "data_in[3]" V16;
+IO_PORT "data_in[3]" PULL_MODE=UP;
+IO_LOC "data_in[2]" U16;
+IO_PORT "data_in[2]" PULL_MODE=UP;
+IO_LOC "data_in[1]" V17;
+IO_PORT "data_in[1]" PULL_MODE=UP;
+IO_LOC "data_in[0]" V18;
+IO_PORT "data_in[0]" PULL_MODE=UP;
+IO_LOC "rst" R19;
+IO_PORT "rst" PULL_MODE=UP;
+IO_LOC "clk" M19;
+IO_PORT "clk" PULL_MODE=UP;
+//IO_LOC "clk_27mhz" AB12;
+//IO_PORT "clk_27mhz" PULL_MODE=UP;

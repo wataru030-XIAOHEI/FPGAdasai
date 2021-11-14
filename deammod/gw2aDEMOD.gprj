@@ -1,0 +1,26 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2A-18" pn="GW2A-LV18PG484C8/I7">gw2a18-004</Device>
+    <FileList>
+        <File path="filter/filter.v" type="file.verilog" enable="0"/>
+        <File path="filter/filter_125kfs.v" type="file.verilog" enable="0"/>
+        <File path="filter/filter_3k4.v" type="file.verilog" enable="1"/>
+        <File path="filter/filter_7k.v" type="file.verilog" enable="0"/>
+        <File path="filter/filter_fs500khz.v" type="file.verilog" enable="0"/>
+        <File path="filter/filter_fs57p69FS.v" type="file.verilog" enable="0"/>
+        <File path="filter/filter_gw2ademodfilter.v" type="file.verilog" enable="0"/>
+        <File path="src/Gowin_rPLLto45/gowin_rpll27to45.v" type="file.verilog" enable="1"/>
+        <File path="src/clk50to1.v" type="file.verilog" enable="1"/>
+        <File path="src/filter_10k.v" type="file.verilog" enable="0"/>
+        <File path="src/gowin_clkdiv1/gowin_clkdiv1.v" type="file.verilog" enable="0"/>
+        <File path="src/gowin_clkdiv2/gowin_clkdiv2.v" type="file.verilog" enable="0"/>
+        <File path="src/gowin_rpll/addc_clk.v" type="file.verilog" enable="1"/>
+        <File path="src/rectification.v" type="file.verilog" enable="1"/>
+        <File path="src/top.v" type="file.verilog" enable="1"/>
+        <File path="src/gw2aDEMOD.cst" type="file.cst" enable="1"/>
+        <File path="src/gw2aDEMOD.gao" type="file.gao" enable="0"/>
+    </FileList>
+</Project>
