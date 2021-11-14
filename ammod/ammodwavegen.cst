@@ -1,0 +1,52 @@
+//Copyright (C)2014-2021 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//GOWIN Version: 1.9.8
+//Part Number: GW1NSR-LV4CQN48PC7/I6
+//Device: GW1NSR-4C
+//Created Time: Sun 11 14 20:52:51 2021
+
+IO_LOC "ammod_wave[7]" 47;
+IO_PORT "ammod_wave[7]" PULL_MODE=NONE DRIVE=8;
+IO_LOC "ammod_wave[6]" 45;
+IO_PORT "ammod_wave[6]" PULL_MODE=NONE DRIVE=8;
+IO_LOC "ammod_wave[5]" 43;
+IO_PORT "ammod_wave[5]" PULL_MODE=NONE DRIVE=8;
+IO_LOC "ammod_wave[4]" 41;
+IO_PORT "ammod_wave[4]" PULL_MODE=NONE DRIVE=8;
+IO_LOC "ammod_wave[3]" 39;
+IO_PORT "ammod_wave[3]" PULL_MODE=NONE DRIVE=8;
+IO_LOC "ammod_wave[2]" 2;
+IO_PORT "ammod_wave[2]" PULL_MODE=NONE DRIVE=8;
+IO_LOC "ammod_wave[1]" 34;
+IO_PORT "ammod_wave[1]" PULL_MODE=NONE DRIVE=8;
+IO_LOC "ammod_wave[0]" 31;
+IO_PORT "ammod_wave[0]" PULL_MODE=NONE DRIVE=8;
+IO_LOC "clk_adc" 27;
+IO_PORT "clk_adc" PULL_MODE=NONE DRIVE=8;
+IO_LOC "clk_dac" 28;
+IO_PORT "clk_dac" PULL_MODE=NONE DRIVE=8;
+IO_LOC "data_in[7]" 46;
+IO_PORT "data_in[7]" PULL_MODE=UP;
+IO_LOC "data_in[6]" 44;
+IO_PORT "data_in[6]" PULL_MODE=UP;
+IO_LOC "data_in[5]" 42;
+IO_PORT "data_in[5]" PULL_MODE=UP;
+IO_LOC "data_in[4]" 40;
+IO_PORT "data_in[4]" PULL_MODE=UP;
+IO_LOC "data_in[3]" 1;
+IO_PORT "data_in[3]" PULL_MODE=UP;
+IO_LOC "data_in[2]" 33;
+IO_PORT "data_in[2]" PULL_MODE=UP;
+IO_LOC "data_in[1]" 35;
+IO_PORT "data_in[1]" PULL_MODE=UP;
+IO_LOC "data_in[0]" 32;
+IO_PORT "data_in[0]" PULL_MODE=UP;
+IO_LOC "rst" 30;
+IO_PORT "rst" PULL_MODE=UP;
+IO_LOC "ctrl_key_sub" 8;
+IO_PORT "ctrl_key_sub" PULL_MODE=UP;
+IO_LOC "ctrl_key_add" 48;
+IO_PORT "ctrl_key_add" PULL_MODE=UP;
+IO_LOC "clk" 22;
+IO_PORT "clk" PULL_MODE=UP;
